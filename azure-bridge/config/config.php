@@ -15,10 +15,16 @@ $config = array(
 
     'authproc.sp' => array(
       50 => array(
-        'class'        => '27partners:AzureGroups',
+        'class'        => '27partners:Azure',
         'clientid'     => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
         'clientsecret' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
         'tenantid'     => 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+      ),
+      51 => array(
+        'class' => '27partners:AzureGroups',
+      ),
+      52 => array(
+        'class' => '27partners:AzureOtherMail',
       ),
     ),
 
